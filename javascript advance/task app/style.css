@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(72, 163, 0, 0.07);
+    text-transform: capitalize;
+}
+#title{
+    color: #48A300;
+    font-size: 64px;
+    text-align: center;
+}
+h1 span {
+    color: #61481c;
+}
+#container {
+    max-width:660px;
+    background-color: #fbfbfb;
+    margin-inline: auto;  
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    gap: 20px;
+}
+#sub-heading i {
+    color: orange;
+    margin-left: 15px;
+    font-size: 1.7rem;
+    /* vertical-align: middle; */
+}
+
+#progress-label{
+    /* font-size: 14px; */
+    color: #858585;
+  
+}
+.progress-bar{
+    background-color: rgba(72, 163, 0, 0.07) ;
+    height: 30px;
+    border-radius: 15px;
+
+}
+.progress-state{
+    background-color: #48A300 ;
+    height: 100%;
+    width: 30%;
+    border-radius: 15px;
+    border-radius: 15px;
+    color: white;
+    padding: 2px 8px;
+}
+.error-Label {
+    color: red;
+}
+.goal-box{
+    height: 50px;
+    border: 1.5px solid #dadada;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} 
+.checkbox{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1.5px solid #aea9a9;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.input{
+    width: 80%;
+    height: 80%;
+    border: 1px ;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    text-transform: capitalize;
+
+}
+input::placeholder {
+    color: #aaaaaa; /* Light grey color */
+    font-weight: lighter; 
+  
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.developer{
+font-weight: lighter;
+color: #dadada;
+margin: 30px auto;
+}
+i{
+    font-size: 29.5px;
+    text-align: center;
+    color: #48A300;
+    opacity: 0;
+
+}
+/* .checked {
+    color: green; /* Optional: change the color of the check mark */
+/* }  */
+.completed {
+    text-decoration: line-through;
+}
+.checked {
+    color: green; /* Optional: change the color of the check mark */
+}

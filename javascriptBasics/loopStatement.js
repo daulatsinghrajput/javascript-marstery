@@ -36,15 +36,15 @@
 //     console.log(key + ': ' + person[key]);
 // }
 
-// // for each 
-// let StudentName = ["roiht", "mohit", "vikash", "mayanak", "kamal"];
-// StudentName.forEach(function(StudentName, index){
-//     console.log('Roll num '+index +':'+StudentName)
-// });
+// for each 
+let StudentName = ["roiht", "mohit", "vikash", "mayanak", "kamal"];
+StudentName.forEach(function(StudentName, index){
+    console.log('Roll num '+index +':'+StudentName)
+});
 
 
-for (let i = 1; i <= 3; i++) {
-    for (let j = 1; j <= 3; j++) {
-        console.log(i + ', ' + j);
-    }
-}
+// for (let i = 1; i <= 3; i++) {
+//     for (let j = 1; j <= 3; j++) {
+//         console.log(i + ', ' + j);
+//     }
+// }
